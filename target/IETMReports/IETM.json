@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="11" time="196.484">
+    <testcase classname="Validate Admin - Enter IETM" name="Contents verification" time="20.78">
+        <system-out><![CDATA[Given user opens the "Chrome" browser.......................................passed
+When user enters the url as "http://ietm.codeandpixels.net/#/"..............passed
+Then user is to enter username as "*************"...........................passed
+Then user is to enter password as "*********"...............................passed
+Then user is to click the button "SUBMIT"...................................passed
+Then user is to click the "Enter IETM"......................................passed
+And user is to click the Centrifugal Pumps module...........................passed
+And user is to click the Installation content...............................passed
+And user is to click the Maintenance content................................passed
+And user is to click the Technical Data content.............................passed
+And user is to click the Assembly content...................................passed
+And user is to click the Structural Diagram & Parts List content............passed
+And user is to click the Operation content..................................passed
+And user is to click the Safety content.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate Admin - Enter IETM" name="Search TextBox verification" time="11.033">
+        <system-out><![CDATA[Given user opens the "Chrome" browser.......................................passed
+When user enters the url as "http://ietm.codeandpixels.net/#/"..............passed
+Then user is to enter username as "*************"...........................passed
+Then user is to enter password as "*********"...............................passed
+Then user is to click the button "SUBMIT"...................................passed
+Then user is to click the "Enter IETM"......................................passed
+And user is to click the Centrifugal Pumps module...........................passed
+And user is to click the Search Textbox.....................................passed
+And user is to clear the Search Textbox.....................................passed
+And user is to enter the Search Textbox.....................................passed
+And user is to verify the related text......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate Admin - Enter IETM" name="Feedback to Administrator and Notes action verification" time="12.977">
+        <system-out><![CDATA[Given user opens the "Chrome" browser.......................................passed
+When user enters the url as "http://ietm.codeandpixels.net/#/"..............passed
+Then user is to enter username as "*************"...........................passed
+Then user is to enter password as "*********"...............................passed
+Then user is to click the button "SUBMIT"...................................passed
+Then user is to click the "Enter IETM"......................................passed
+And user is to click the Centrifugal Pumps module...........................passed
+And user is to click the Feedback to Administrator action...................passed
+And user is to close the Feedback to Administrator action...................passed
+And user is to click the Notes action.......................................passed
+And user is to close the Notes action.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate Admin - Enter IETM" name="Next and Previous buttons verification" time="12.489">
+        <system-out><![CDATA[Given user opens the "Chrome" browser.......................................passed
+When user enters the url as "http://ietm.codeandpixels.net/#/"..............passed
+Then user is to enter username as "*************"...........................passed
+Then user is to enter password as "*********"...............................passed
+Then user is to click the button "SUBMIT"...................................passed
+Then user is to click the "Enter IETM"......................................passed
+And user is to click the Centrifugal Pumps module...........................passed
+And user is to click the Next button........................................passed
+And user is to click the Previous button....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate Admin - Enter IETM" name="Zoom dropdown action verification" time="18.177">
+        <system-out><![CDATA[Given user opens the "Chrome" browser.......................................passed
+When user enters the url as "http://ietm.codeandpixels.net/#/"..............passed
+Then user is to enter username as "*************"...........................passed
+Then user is to enter password as "*********"...............................passed
+Then user is to click the button "SUBMIT"...................................passed
+Then user is to click the "Enter IETM"......................................passed
+And user is to click the Centrifugal Pumps module...........................passed
+And user is to click the Zoom dropdown action...............................passed
+And user is to click the Increase...........................................passed
+And user is to click the Decrease...........................................passed
+And user is to click the Slider.............................................passed
+And user is to click the Reset..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate Admin - Enter IETM" name="All actions verification" time="18.724">
+        <failure message="element click intercepted: Element &lt;i _ngcontent-tim-c72=&quot;&quot; class=&quot;lni lni-search&quot;&gt;&lt;/i&gt; is not clickable at point (1280, 68). Other element would receive the click: &lt;modal-container role=&quot;dialog&quot; tabindex=&quot;-1&quot; class=&quot;modal fade show&quot; style=&quot;display: block;&quot; aria-modal=&quot;true&quot;&gt;...&lt;/modal-container&gt;&#10;  (Session info: chrome=112.0.5615.138)&#10;Build info: version: '4.8.3', revision: 'b19b418e60'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [c0dc73781ccd86445e0f76cb728627db, clickElement {id=9b4e3ce6-e41e-490b-af6c-5832ab1f940a}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\vishn\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57220}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57220/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (c0dc73781ccd86445e0f76cb728627db)] -&gt; xpath: //i[@class='lni lni-search']]&#10;Session ID: c0dc73781ccd86445e0f76cb728627db" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[Given user opens the "Chrome" browser.......................................passed
+When user enters the url as "http://ietm.codeandpixels.net/#/"..............passed
+Then user is to enter username as "*************"...........................passed
+Then user is to enter password as "*********"...............................passed
+Then user is to click the button "SUBMIT"...................................passed
+Then user is to click the "Enter IETM"......................................passed
+And user is to click the Centrifugal Pumps module...........................passed
+And user is to click the FullScreen action..................................passed
+And user is to click the Escape key in keyboard.............................passed
+And user is to click the Bookmark action....................................passed
+And user is to close the Bookmark action....................................passed
+And user is to click the Search action......................................failed
+And user is to click the Back navigation button.............................skipped
+And user is to verify the Print action......................................skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <i _ngcontent-tim-c72="" class="lni lni-search"></i> is not clickable at point (1280, 68). Other element would receive the click: <modal-container role="dialog" tabindex="-1" class="modal fade show" style="display: block;" aria-modal="true">...</modal-container>
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.8.3', revision: 'b19b418e60'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c0dc73781ccd86445e0f76cb728627db, clickElement {id=9b4e3ce6-e41e-490b-af6c-5832ab1f940a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\vishn\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57220}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57220/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (c0dc73781ccd86445e0f76cb728627db)] -> xpath: //i[@class='lni lni-search']]
+Session ID: c0dc73781ccd86445e0f76cb728627db
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at jdk.internal.reflect.GeneratedMethodAccessor86.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at net.admin.pages.EIAdminPage.clickSearchAction(EIAdminPage.java:303)
+	at net.ei.stepdefinitions.EI_Admin_StepDef.user_is_to_click_the_search_action(EI_Admin_StepDef.java:235)
+	at ✽.user is to click the Search action(file:///C:/Users/vishn/git/IETMAdmin/src/test/java/net/admin/features/EnterIETM.feature:49)
+]]></failure>
+    </testcase>
+    <testcase classname="Validate Admin - Enter IETM" name="Manuals,Drawings and Glossary buttons verification" time="14.245">
+        <system-out><![CDATA[Given user opens the "Chrome" browser.......................................passed
+When user enters the url as "http://ietm.codeandpixels.net/#/"..............passed
+Then user is to enter username as "*************"...........................passed
+Then user is to enter password as "*********"...............................passed
+Then user is to click the button "SUBMIT"...................................passed
+Then user is to click the "Enter IETM"......................................passed
+And user is to click the Centrifugal Pumps module...........................passed
+And user is to click the Manuals button.....................................passed
+And user is to click the Drawings button....................................passed
+And user is to click the Glossary button....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate Admin - Enter IETM" name="Home button &amp; Modules button verification" time="11.612">
+        <system-out><![CDATA[Given user opens the "Chrome" browser.......................................passed
+When user enters the url as "http://ietm.codeandpixels.net/#/"..............passed
+Then user is to enter username as "*************"...........................passed
+Then user is to enter password as "*********"...............................passed
+Then user is to click the button "SUBMIT"...................................passed
+Then user is to click the "Enter IETM"......................................passed
+And user is to click the Centrifugal Pumps module...........................passed
+And user is to click the Home button of the page............................passed
+And user is to click the Enter IETM.........................................passed
+And user is to click the Modules button of the page.........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate Admin - Enter IETM" name="Forward &amp; Backward navigations verification" time="49.205">
+        <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //a[text()=' ENTER IETM '] (tried for 30 second(s) with 500 milliseconds interval)&#10;Build info: version: '4.8.3', revision: 'b19b418e60'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\vishn\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57327}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57327/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 7ee1d07d8b7a53dfdba2468a834817d2" type="org.openqa.selenium.TimeoutException"><![CDATA[Given user opens the "Chrome" browser.......................................passed
+When user enters the url as "http://ietm.codeandpixels.net/#/"..............passed
+Then user is to enter username as "*************"...........................passed
+Then user is to enter password as "*********"...............................passed
+Then user is to click the button "SUBMIT"...................................passed
+Then user is to click the "Enter IETM"......................................passed
+And user is to click the Centrifugal Pumps module...........................passed
+And user is to click the Backward navigation button.........................passed
+And user is to click the Enter IETM.........................................failed
+And user is to click the Forward navigation button..........................skipped
+
+StackTrace:
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //a[text()=' ENTER IETM '] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.3', revision: 'b19b418e60'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\vishn\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57327}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57327/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ee1d07d8b7a53dfdba2468a834817d2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at net.ei.stepdefinitions.EI_Admin_StepDef.user_is_to_click_the_enter_ietm(EI_Admin_StepDef.java:279)
+	at ✽.user is to click the Enter IETM(file:///C:/Users/vishn/git/IETMAdmin/src/test/java/net/admin/features/EnterIETM.feature:65)
+]]></failure>
+    </testcase>
+    <testcase classname="Validate Admin - Enter IETM" name="Help dropdown button verification" time="11.343">
+        <system-out><![CDATA[Given user opens the "Chrome" browser.......................................passed
+When user enters the url as "http://ietm.codeandpixels.net/#/"..............passed
+Then user is to enter username as "*************"...........................passed
+Then user is to enter password as "*********"...............................passed
+Then user is to click the button "SUBMIT"...................................passed
+Then user is to click the "Enter IETM"......................................passed
+And user is to click the Centrifugal Pumps module...........................passed
+And user is to click the Help dropdown button...............................passed
+And user is to verify About IETM in the dropdown............................passed
+And user is to verify How to use IETM? in the dropdown......................passed
+And user is to verify Version & Revision History in the dropdown............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate Admin - Enter IETM" name="Logout button verification" time="15.114">
+        <system-out><![CDATA[Given user opens the "Chrome" browser.......................................passed
+When user enters the url as "http://ietm.codeandpixels.net/#/"..............passed
+Then user is to enter username as "*************"...........................passed
+Then user is to enter password as "*********"...............................passed
+Then user is to click the button "SUBMIT"...................................passed
+Then user is to click the "Enter IETM"......................................passed
+And user is to click the Centrifugal Pumps module...........................passed
+And user is to click the Logout button......................................passed
+And user is to click the Close button.......................................passed
+And user is to click the No button..........................................passed
+And user is to click the Yes button.........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
